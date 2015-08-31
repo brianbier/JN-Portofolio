@@ -1,0 +1,135 @@
+/*****************
+HEADER
+*****************/
+.navbar{	
+	margin:0px auto;
+	background-color: #333333;
+}
+.nav{
+	padding-top:33px;
+	background-color:;
+}
+.navbar-nav .active{
+	color: #fff;
+}
+.navbar a {
+    color: white !important;
+}
+
+ .navbar li:hover{
+      color: #fff;
+      background-color: #e8a0b8;
+	  border-bottom: 1.5px solid #d971aa;
+	  border-radius: 5px;
+ }
+
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #fff;
+      background: #df6098;
+      border-radius: 5px;
+ }
+
+/*****************
+Body
+*****************/
+
+ .jumbotron{
+	background-image:url("botox-lips.png")no-repeat center center !important;
+	height: 500px;
+	margin-top: 80px;
+	padding-top: 120px;
+	background-repeat: no-repeat;
+	background-size:cover;     
+	position: relative; 
+	margin-left: auto;      
+	margin-right: auto; 
+	background-position: center;  
+	color: #fff;
+ }
+
+ .jumbotron a{
+ 	margin:0;
+ 	background-color: #df6098;
+ 	text-align: center;
+ 	border-radius: 1px solid red;
+ 	color: #fff;
+
+ }
+  .jumbotron button:hover{
+ 	margin:0;
+ 	background-color: transparent;
+ 	text-align: center;
+ 	background-color: #df6098;
+ 	color: #fff;
+ }
+
+.row ul{
+	list-style-image: url('star16.png');
+	padding:20px;
+
+}
+.row li{
+	padding:5px;
+	font-size: 14px;
+}
+#procedures{
+	color:#df6098;
+}
+.img-background{
+	background-color:#f5f5f5;
+}
+#before{
+	padding-left: 100px;
+	padding-top: 25px;
+
+}
+#after{
+	padding-left: 100px;
+	padding-top: 25px;
+	
+}
+.image{
+	width:250px;
+}
+.col-md-4{
+	padding-left: 50px;
+}
+/************************
+Footer
+************************/
+footer{
+	background-color: #333333;
+	color: #fff;
+	padding:15px 20px 20px 90px;
+	position: absolute;
+	bottom:0;
+	width:100%;
+
+}
+.footer{
+}
+.footer-group{
+	padding-left: 30%;
+}
+
+
+/*****************************
+About Page
+*****************************/
+.jumbotron-about{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	float: right;
+	margin-top: 100px;
+	padding-top: 150px;
+	background-repeat: no-repeat;
+	background-size:cover;     
+	position: relative; 
+	margin-left: auto;      
+	margin-right: auto; 
+	background-position: center;  
+	color: #fff;
+}
